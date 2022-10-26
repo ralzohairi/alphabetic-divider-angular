@@ -1,0 +1,8 @@
+<!-- Divider -->
+<div class="alphabet-divider" *ngIf="enableAlphabeticDivider && !dividerStatus.includeUnderPreviousDivider">
+    {{dividerStatus.dividerChar}}</div>
+
+<!-- Item -->
+<li class="item">
+    {{ item | lowercase }}
+</li>

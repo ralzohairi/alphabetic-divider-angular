@@ -1,0 +1,60 @@
+/* Media Queries */
+
+/* Small Devices*/
+
+@media (min-width: 0px) {
+
+    .item {
+        width: 100%;
+        min-height: 50px;
+        padding: 5px;
+        /*targeting Chrome & Safari*/
+        display: -webkit-flex;
+        /*targeting IE10*/
+        display: -ms-flex;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        border-bottom: 2px solid darkgray;
+        align-items: center;
+        /*vertical centering*/
+        background-color: white;
+        text-align: center;
+        word-break: break-word;
+    }
+
+    .alphabet-divider {
+        min-height: 30px;
+        padding: 5px;
+        background-color: #ffcad4;
+        border-bottom: 2px solid darkgray;
+        /*targeting Chrome & Safari*/
+        display: -webkit-flex;
+        /*targeting IE10*/
+        display: -ms-flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-family: arial;
+        text-align: center;
+        word-break: break-word;
+    }
+
+}
+
+/* Medium devices */
+
+/* @media (min-width: 768px) {} */
+
+/* Large devices */
+
+/* @media (min-width: 992px) {} */
+
+/*Ipad pro view*/
+
+/* @media (min-width: 1024px) {} */
+
+/* Extra Large devices */
+
+/* @media (min-width: 1200px) {} */

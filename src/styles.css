@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(242, 242, 242);
+    color: #414142;
+    position: relative;
+    font-family: "im-fell-dw-pica-italic", Arial, sans-serif;
+}
+
+@font-face {
+    font-family: 'im-fell-dw-pica-italic';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./assets/fonts/IMFellDWPica-Italic.ttf') format('truetype');
+}
